@@ -1,0 +1,131 @@
+body {
+  background-image: url("Img/website-desktop1_1_1600x.jpg");
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#landing-title {
+  padding-top: 10px;
+  line-height: 100%;
+  font-weight: bolder;
+  font-size: 75px;
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(255, 255, 255);
+}
+.logo {
+  font-size: 38px;
+  font-weight: 900;
+}
+
+.container {
+  width: 1300px;
+  margin: 0px auto;
+}
+
+a {
+  color: rgb(255, 72, 0);
+  text-decoration: none;
+}
+.menu-bar {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 200;
+  background-color: cornsilk;
+  border-bottom: 8px solid rgb(255, 72, 0);
+  padding: 20px 10px;
+  padding-bottom: 6px;
+  margin-top: 0px;
+}
+
+.menu-item:hover {
+  text-decoration: wavy underline;
+  color: rgb(160, 45, 0);
+  font-weight: 900;
+}
+
+.shop-now {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 72, 0);
+  padding: 18px 35px;
+  border: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 900;
+  border-radius: 30px;
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+
+.shop-now:hover {
+  text-decoration: wavy underline;
+  background-color: rgb(199, 139, 0);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  padding: 10px 0px;
+}
+
+.container-cascatelli {
+  margin-top: 100px;
+}
+
+.container-text-center {
+  margin-top: 100px;
+  background-color: rgb(255, 72, 0);
+  background-size: auto;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.underline {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 50px;
+  padding-left: 80px;
+  padding-top: 80px;
+  margin-bottom: 20px;
+  color: white;
+  position: relative;
+}
+
+.underline::after {
+  content: "NEW";
+  color: black;
+  background-color: rgb(255, 208, 0);
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  display: inline-block;
+  padding: 7px 14px;
+  position: absolute;
+  margin-left: 7px;
+  border-radius: 30px;
+}
+
+p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  line-height: 30px;
+  padding-left: 80px;
+  padding-top: 0px;
+  padding-right: 180px;
+}
+
+#pasta1 {
+  padding-left: 80px;
+  width: 650px;
+  height: 500px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+li {
+  display: inline;
+  text-indent: 10px;
+  padding: 0px 5px;
+}
